@@ -17,10 +17,9 @@ const TextLink: FC<linkProps> = ({ text, url }) => {
 };
 
 const Header: FC = () => {
-
   return (
     <header
-      className={`flex flex-row items-center justify-between py-8 font-jost`}
+      className={`font-jost flex flex-row items-center justify-between py-8`}
     >
       <p className="hidden sm:flex sm:flex-row sm:gap-x-4">
         <TextLink text="Home" url="#" />
@@ -29,12 +28,13 @@ const Header: FC = () => {
         <TextLink text="Contact" url="#contact" />
       </p>
 
-      <Link href="https://github.com/kr-anurag/portfolio" passHref>
+      <Link href="https://github.com/MayankVats" passHref>
         <a
           className="rounded-lg border-2 border-zinc-900 bg-zinc-800 p-2 text-2xl text-white hover:border-white"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="github-repo"
+          style={{ color: "#2ecc71" }}
         >
           <VscGithubAlt />
         </a>
