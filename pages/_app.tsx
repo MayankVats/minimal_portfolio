@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             "Hey! I'm Mayank, A Software Developer, Researcher and a Learner!",
           images: [
             {
-              url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
+              url: "",
               width: 800,
               height: 420,
               alt: "Mayank | Software Developer",
@@ -51,7 +51,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           {
             property: "keywords",
             content:
-              "Software Developer, mayank, mayankv, Web Developer, web development, web developer, tech enthusiast, open source",
+              "Software Developer, mayank, mayankv, Web Developer, web development, smart contract development, freelance, web developer, tech enthusiast, open source, moonblock, Moon Block, moonBlock",
           },
         ]}
       />
